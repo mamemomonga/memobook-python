@@ -1,0 +1,13 @@
+
+sampleconfig:
+
+  data1:
+     - list1
+     - list2
+     - list3
+
+  data2:
+     - list1
+     - list2
+     - list3
+
