@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # vim:fileencoding=utf-8
 
-class SimplePythonApp2:
+class SampleApp:
 
 	def __init__(self,**kwargs):
 		from logging import basicConfig, getLogger

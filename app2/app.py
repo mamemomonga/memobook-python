@@ -24,7 +24,7 @@ def _logger():
 	return logger
 logger = _logger()
 
-from SimplePythonApp2 import SimplePythonApp2
+from TheApplication import SampleApp
 from Utils import Utils
 
 def main():
@@ -38,7 +38,7 @@ def main():
 
 	utils = Utils(logger=logger)
 
-	app = SimplePythonApp2(
+	app = SampleApp(
 		logger = logger,
 		config = utils.load_yaml(args.config),
 		flag   = args.flag
