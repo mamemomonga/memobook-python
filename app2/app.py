@@ -33,7 +33,7 @@ def main():
 
 	parser = argparse.ArgumentParser(description='サンプルアプリケーション')
 	parser.add_argument('-c', '--config', type=str, help='設定', required=True ) 
-	parser.add_argument('-f', '--flag', help='Configを環境変数的に書き出す', dest='flag', action='store_true') 
+	parser.add_argument('-f', '--flag', help='フラグを有効にする', dest='flag', action='store_true') 
 	args = parser.parse_args()
 
 	utils = Utils(logger=logger)
