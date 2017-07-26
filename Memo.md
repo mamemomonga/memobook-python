@@ -1,5 +1,20 @@
 # Python メモ帳
 
+## pyenv
+
+[pyenv Simple Python version management](https://github.com/pyenv/pyenv)
+
+	brew install pyenv
+	echo 'if which pyenv > /dev/null; then eval "$(pyenv init - )"; fi' >> ~/.zshrc
+	source ~/.zshrc
+	pyenv install -l | less
+	pyenv install -l | grep '2.7'
+	pyenv install 2.7.11
+	pyenv global 2.7.11
+	pyenv rehash
+	python -V
+	pip install --upgrade pip
+
 ## Pretty Print
 PerlのData::Dumper, PHPのvar_dump的なもの
 
